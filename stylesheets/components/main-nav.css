@@ -1,1 +1,14 @@
-/* Your code here */
+nav.main-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-nav-items > li {
+  font-size: 12px;
+  padding: 10px;
+}
